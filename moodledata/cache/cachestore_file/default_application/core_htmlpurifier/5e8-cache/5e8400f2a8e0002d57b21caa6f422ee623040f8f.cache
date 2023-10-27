@@ -1,0 +1,17 @@
+s:1832:"<p>El módulo de actividad de base de datos permite a los participantes crear, mantener y buscar información en un repositorio de registros. La estructura de las entradas la define el profesor según una lista de campos. Los tipos de campo incluyen casilla de verificación, botones de opción, menú desplegable, área de texto, URL, imagen y archivo cargado.</p>
+
+<p>La presentación visual de la información al listar, ver o editar las entradas de la base de datos se controla mediante plantillas de base de datos. Las actividades de base de datos pueden ser compartidos entre los cursos como opción preestablecida de manera que un profesor también puede importar y exportar las entradas de base de datos.</p>
+
+<p>Si el filtro de base de datos "auto enlace" está activo, cualquier entrada de la base de datos  será enlazada automáticamente cuando sus palabras o frases aparezcan dentro en el curso.</p>
+
+<p>Un profesor puede permitir comentarios en las entradas. Las entradas también pueden se calificadas por profesores u otros estudiantes (evaluación por pares). Las calificaciones se agregarán para formar una calificación final que se registrará en el libro de calificaciones.</p>
+
+<p>Las actividades de base de datos tienen muchos usos, como por ejemplo:</p>
+
+<ul>
+<li>Crear una colección colaborativa de enlaces web, libros, reseñas de libros, referencias de revistas, etc</li>
+<li>Visualizar fotos, carteles, sitios web o poemas de los estudiantes, que puedan ser comentados por otros estudiantes.</li>
+</ul>
+
+<div class="helpdoclink"><a href="https://docs.moodle.org/401/es_co/mod/data/view" target="_blank" rel="noreferrer noopener"><i class="icon fa fa-book fa-fw iconhelp icon-pre"></i>Más ayuda<i class="icon fa fa-external-link fa-fw fa-externallink" title="Abrir en una nueva ventana"></i></a></div>
+";

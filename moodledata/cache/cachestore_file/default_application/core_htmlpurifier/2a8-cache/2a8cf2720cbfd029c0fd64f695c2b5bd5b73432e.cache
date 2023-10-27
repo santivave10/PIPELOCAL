@@ -1,0 +1,14 @@
+s:1115:"<p>El módulo Consulta permite al profesor hacer una pregunta especificando las posibles respuestas posibles.</p>
+
+<p>Los resultados de la elección puede ser publicados después que los estudiantes hayan respondido, después de cierta fecha, o no publicarse. Los resultados pueden ser publicados con los nombres de los estudiantes o de forma anónima (aunque los profesores siempre verán los nombres de los estudiantes y sus respuestas).</p>
+
+<p>Una Consulta puede utilizarse</p>
+
+<ul>
+<li>Para realizar una encuesta rápida que estimule a los alunmos a reflexionar sobre un tema</li>
+<li>Para comprobar rápidamente que los estudiantes han entendido algo concreto</li>
+<li>Para facilitar la toma de decisiones, por ejemplo permitiendo a los estudiantes votar algún aspecto relacionado con el curso.</li>
+</ul>
+
+<div class="helpdoclink"><a href="https://docs.moodle.org/401/es_co/mod/choice/view" target="_blank" rel="noreferrer noopener"><i class="icon fa fa-book fa-fw iconhelp icon-pre"></i>Más ayuda<i class="icon fa fa-external-link fa-fw fa-externallink" title="Abrir en una nueva ventana"></i></a></div>
+";

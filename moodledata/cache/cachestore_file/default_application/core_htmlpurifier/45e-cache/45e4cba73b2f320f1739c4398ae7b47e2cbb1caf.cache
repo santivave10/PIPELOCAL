@@ -1,0 +1,15 @@
+s:1080:"<p>Si está habilitado, los estudiantes sólo pueden hacer el cuestionario utilizando Safe Exam Browser. Las opciones disponibles son:</p>
+
+<ul>
+<li>No
+<br />No es necesario utilizar Safe Exam Browser para hacer el cuestionario.</li>
+<li>Sí – Utilizar una plantilla existente
+<br />Se puede utilizar una plantilla para la configuración de Safe Exam Browser. Las plantillas se gestionan desde la administración del sitio. Sus ajustes manuales sobrescriben los ajustes de la plantilla.</li>
+<li>Yes – Configurar manualmente
+<br />No se utilizará ninguna plantilla para la configuración de Safe Exam Browser. Puede configurar Safe Exam Browser de forma manual.</li>
+<li>Yes – Subir mi propia configuración
+<br />Puede subir su archivo de configuración de Safe Exam Browser. Todos los ajustes manuales y el uso de plantillas serán deshabilitados.</li>
+<li>Yes – Utilizar configuración de cliente SEB
+<br />No existen configuraciones de Safe Exam Browser guardadas en Moodle. El cuestionario puede hacerse con cualquier configuración de Safe Exam Browser.</li>
+</ul>
+";

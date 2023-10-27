@@ -1,0 +1,13 @@
+s:1064:"<p>Un paquete SCORM es un conjunto de archivos que se empaquetan conforme a una norma estándar para los objetos de aprendizaje. El módulo de actividad SCORM permite cargar y añadir a los cursos paquetes SCORM o AICC como archivos zip.</p>
+
+<p>El contenido se muestra normalmente en varias páginas, con navegación entre las páginas. Hay varias opciones para la visualización de los contenidos, con ventanas pop-up, en tablas de contenidos, con botones de navegación, etc Las actividades SCORM generalmente incluyen preguntas calificables, que se registra en el libro de calificaciones.</p>
+
+<p>Las actividades SCORM se puede usar</p>
+
+<ul>
+<li>Para la presentación de contenidos multimedia y animaciones</li>
+<li>Como herramienta de evaluación</li>
+</ul>
+
+<div class="helpdoclink"><a href="https://docs.moodle.org/401/es_co/mod/scorm/view" target="_blank" rel="noreferrer noopener"><i class="icon fa fa-book fa-fw iconhelp icon-pre"></i>Más ayuda<i class="icon fa fa-external-link fa-fw fa-externallink" title="Abrir en una nueva ventana"></i></a></div>
+";

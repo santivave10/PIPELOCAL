@@ -1,0 +1,5 @@
+a:23:{s:7:"address";s:40:"Laureles, El Bagre - Antioquia, Colombia";s:16:"copyright_footer";s:41:"Copyright © 2023 - Desarrollado por PIPE";s:9:"customcss";s:192:"/* Cambiar la fuente a Helvetica en todo el tema */
+body, p, h1, h2, h3, h4, h5, h6, a, span, div, button, input, select, textarea {
+    font-family: "Helvetica", sans-serif !important;
+}
+";s:7:"emailid";s:22:"somospipecol@gmail.com";s:5:"fburl";s:0:"";s:10:"footerlogo";s:0:"";s:8:"footnote";s:0:"";s:5:"gpurl";s:0:"";s:8:"infolink";s:0:"";s:7:"loginbg";s:0:"";s:4:"logo";s:13:"/LogoPIPE.png";s:14:"numberofslides";s:1:"1";s:7:"phoneno";s:17:"+57 311 616 27 41";s:6:"pinurl";s:0:"";s:13:"slide1caption";s:27:"Bootstrap Based Slider - 01";s:11:"slide1image";s:0:"";s:9:"slide1url";s:23:"http://www.example.com/";s:13:"slide1urltext";s:13:"lang:knowmore";s:15:"toggleslideshow";s:1:"1";s:5:"twurl";s:0:"";s:7:"version";s:10:"2022051701";s:20:"whoweare_description";s:0:"";s:14:"whoweare_title";s:4:"PIPE";}

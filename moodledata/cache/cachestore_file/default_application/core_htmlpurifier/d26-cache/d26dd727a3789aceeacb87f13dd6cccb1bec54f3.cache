@@ -1,0 +1,18 @@
+s:738:"<p></p><p>Cuando se permiten múltiples intentos, hay diferentes maneras en las que puede
+usar las distintas calificaciones obtenidas para calcular la puntuación final del examen.</p>
+
+<p></p><p><b>Calificación más alta</b></p><p>
+</p><p>La puntuación final es la más alta en cualquiera de los intentos.
+</p>
+
+<p></p><p><b>Puntuación media</b></p><p>
+</p><p> La puntuación final es el promedio (la media simple) de la puntuación de
+todos los intentos.</p>
+
+<p></p><p><b>Primera calificación</b></p><p>
+</p><p>La puntuación final es la obtenida en el primer intento (se ignoran los
+demás intentos).</p>
+
+<p></p><p><b>Última calificación</b></p><p>
+</p><p>La calificación final es la obtenida en el intento más reciente.</p>
+";

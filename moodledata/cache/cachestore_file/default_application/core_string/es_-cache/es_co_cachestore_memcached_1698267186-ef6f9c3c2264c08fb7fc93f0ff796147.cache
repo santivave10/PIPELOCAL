@@ -1,0 +1,32 @@
+a:40:{s:12:"bufferwrites";s:19:"Escritura de búfer";s:17:"bufferwrites_help";s:356:"Habilita o deshabilita un periférico de Entrada/Salida (E/S). Habilitar E/S obliga a los comandos de almacenamiento a "cargar" en lugar de ser enviados. Cualquier acción que recupere información causa que esta carga se envíe a una conexión remota. Cerrar o terminar la conexión también hará que los datos cargados se envíen a una conexión remota.";s:9:"clustered";s:30:"Habilitar servidores agrupados";s:14:"clustered_help";s:580:"Esto se utiliza para permitir la funcionalidad de lectura uno, conjunto múltiple.
+
+El caso de uso previsto es crear una tienda mejorada para configuraciones con equilibrio de carga. La tienda buscará de un servidor (generalmente localhost), pero se configurará en muchos (todos los servidores en el grupo de equilibrio de carga). Para cachés con relaciones muy altas de lectura a configuración, esto ahorra una cantidad significativa de sobrecarga de red.
+
+Cuando esta configuración está habilitada, el servidor mencionado anteriormente se utilizará para la recuperación.";s:15:"clusteredheader";s:18:"Separar servidores";s:4:"hash";s:12:"Método hash";s:9:"hash_help";s:193:"Especifica el algoritmo hash utilizado para las claves de los elementos. Cada algoritmo hash tiene sus ventajas y sus desventajas. Utilice el valor por defecto si usted no sabe o no le importa.";s:12:"hash_default";s:26:"Por defecto (una a la vez)";s:8:"hash_md5";s:3:"MD5";s:8:"hash_crc";s:3:"CRC";s:12:"hash_fnv1_64";s:7:"FNV1_64";s:13:"hash_fnv1a_64";s:8:"FNV1A_64";s:12:"hash_fnv1_32";s:7:"FNV1_32";s:13:"hash_fnv1a_32";s:8:"FNV1A_32";s:10:"hash_hsieh";s:5:"Hsieh";s:11:"hash_murmur";s:6:"Murmur";s:8:"isshared";s:17:"Caché compartida";s:13:"isshared_help";s:716:"¿Su servidor memcached también está siendo utilizado por otras aplicaciones?
+
+Si la caché es compartida por otras aplicaciones, entonces cada clave se eliminará individualmente para garantizar que solo se eliminen los datos que pertenecen a esta aplicación (dejando los datos de la caché de la aplicación externa sin cambios). Esto puede provocar una reducción en el rendimiento al purgar la caché, dependiendo de la configuración de su servidor.
+
+Si está ejecutando una caché dedicada para esta aplicación, entonces la caché completa se puede vaciar de forma segura sin riesgo de destruir los datos de la caché de otra aplicación. Esto debería resultar en un mayor rendimiento al purgar la caché.";s:10:"pluginname";s:9:"Memcached";s:26:"privacy:metadata:memcached";s:232:"El complemento de almacenamiento en caché Memcached almacena datos brevemente como parte de su funcionalidad de almacenamiento en caché. Estos datos se almacenan en un servidor Memcache donde los datos se eliminan con regularidad.";s:31:"privacy:metadata:memcached:data";s:45:"Los diferentes datos almacenados en la caché";s:6:"prefix";s:16:"Clave de prefijo";s:11:"prefix_help";s:259:"Esto se puede utilizar para crear un "dominio" para sus claves de posición, permitiendo crear múltiples sistemas de almacenaje memcached en una única instalación memcached. No debe contener más de 16 caracteres para evitar problemas de longitud de clave.";s:13:"prefixinvalid";s:51:"Prefijo no válido. Sólo puede usar a-z A-Z 0-9-_.";s:19:"serialiser_igbinary";s:25:"El serializador igbinary.";s:15:"serialiser_json";s:21:"Serializador de JSON.";s:14:"serialiser_php";s:32:"Serializador PHP predeterminado.";s:7:"servers";s:10:"Servidores";s:12:"servers_help";s:558:"Este ajuste configura los servidores utilizados por el adaptador memcache.
+Los servidores deben definirse uno por línea, indicando la dirección de servidor y, opcionalmente, un puerto y peso.
+Si no se proporciona ningún puerto se utilizará el puerto predeterminado (11211).
+
+Por ejemplo:
+<pre>
+server.url.com
+IP address:port
+nombre_servidor:puerto:peso
+</pre>
+
+Si *habilitar servidores agrupados* está habilitado, sólo puede haber un servidor en esta lista. Normalmente será un nombre que siempre determina el equipo local, como 127.0.0.1 o localhost.";s:21:"serversclusterinvalid";s:61:"Se requiere un servidor cuando la agrupación está activada.";s:10:"setservers";s:21:"Configurar Servidores";s:15:"setservers_help";s:534:"Esta es la lista de servidores que se actualizarán cuando los datos se modifican en la caché. Normalmente el nombre completo de cada servidor en el inventario. **Debe** incluir el servidor especificado en *servidores* encima, incluso si es con un nombre de equipo diferente.
+Los servidores deben definirse uno por línea y consisten en una dirección de servidor y, opcionalmente, un puerto.
+Si no se proporciona ningún puerto se utilizará el puerto predeterminado (11211).
+
+Por ejemplo:
+<pre>
+server.url.com
+ipaddress:port
+</pre>";s:22:"sessionhandlerconflict";s:189:"Advertencia: Un caso memcached ({$a}) se ha configurado para utilizar el mismo servidor memcached como sesiones. Eliminar toda la caché redirigirá a sesiones que estén siendo eliminadas.";s:11:"testservers";s:20:"Servidores de prueba";s:16:"testservers_desc";s:230:"Una o más conexiones para servidores memcached a comprobar. Si se ha especificado un servidor de prueba, entonces memcached se puede comprobar usando la página caché en el bloque de administración.
+Por ejemplo: 127.0.0.1:11211";s:14:"usecompression";s:16:"Usar compresión";s:19:"usecompression_help";s:227:"Activa o desactiva la compresión. Cuando está activado, los elementos de más de un cierto umbral (actualmente 100 bytes) se comprimen durante el almacenamiento y se descomprime durante la recuperación de forma transparente.";s:13:"useserialiser";s:17:"Usar serializador";s:18:"useserialiser_help";s:324:"Especifica el serializador que se utilizará para serializar valores no escalares.
+Los serializadores válidos son Memcached::SERIALIZER_PHP o Memcached::SERIALIZER_IGBINARY.
+Este último es compatible solo cuando memcached está configurado con la opción --enable-memcached-igbinary y la extensión igbinary está cargada.";s:21:"upgrade200recommended";s:398:"Te recomendamos que actualices tu extensión Memcached PHP a la versión 2.0.0 o superior.
+La versión de la extensión Memcached PHP que estás utilizando no proporciona la funcionalidad que Moodle usa para asegurar una caché de espacio aislado. Hasta que no la actualices te recomendamos que no configures ninguna otra aplicación para que use los mismos servidores Memcached que utiliza Moodle.";}

@@ -1,0 +1,52 @@
+[Thu Oct 26 13:15:23.030081 2023] [ssl:warn] [pid 13568:tid 636] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Oct 26 13:15:23.098611 2023] [ssl:warn] [pid 13568:tid 636] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Oct 26 13:15:23.308703 2023] [mpm_winnt:notice] [pid 13568:tid 636] AH00455: Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/7.4.28 configured -- resuming normal operations
+[Thu Oct 26 13:15:23.308703 2023] [mpm_winnt:notice] [pid 13568:tid 636] AH00456: Apache Lounge VC15 Server built: Dec 23 2021 11:00:40
+[Thu Oct 26 13:15:23.308703 2023] [core:notice] [pid 13568:tid 636] AH00094: Command line: 'C:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Thu Oct 26 13:15:23.338728 2023] [mpm_winnt:notice] [pid 13568:tid 636] AH00418: Parent: Created child process 11496
+[Thu Oct 26 13:15:24.009417 2023] [ssl:warn] [pid 11496:tid 664] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Oct 26 13:15:24.114477 2023] [ssl:warn] [pid 11496:tid 664] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Oct 26 13:15:24.159505 2023] [mpm_winnt:notice] [pid 11496:tid 664] AH00354: Child: Starting 150 worker threads.
+[Thu Oct 26 13:17:03.741083 2023] [ssl:warn] [pid 6608:tid 460] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Oct 26 13:17:03.844687 2023] [ssl:warn] [pid 6608:tid 460] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Oct 26 13:17:03.889699 2023] [mpm_winnt:notice] [pid 6608:tid 460] AH00455: Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/7.4.28 configured -- resuming normal operations
+[Thu Oct 26 13:17:03.889699 2023] [mpm_winnt:notice] [pid 6608:tid 460] AH00456: Apache Lounge VC15 Server built: Dec 23 2021 11:00:40
+[Thu Oct 26 13:17:03.889699 2023] [core:notice] [pid 6608:tid 460] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Thu Oct 26 13:17:03.921715 2023] [mpm_winnt:notice] [pid 6608:tid 460] AH00418: Parent: Created child process 1832
+[Thu Oct 26 13:17:04.574502 2023] [ssl:warn] [pid 1832:tid 648] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Oct 26 13:17:04.649542 2023] [ssl:warn] [pid 1832:tid 648] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Oct 26 13:17:04.709558 2023] [mpm_winnt:notice] [pid 1832:tid 648] AH00354: Child: Starting 150 worker threads.
+[Thu Oct 26 13:27:49.872536 2023] [ssl:warn] [pid 6648:tid 664] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Oct 26 13:27:49.947589 2023] [core:warn] [pid 6648:tid 664] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Oct 26 13:27:49.947589 2023] [ssl:warn] [pid 6648:tid 664] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Oct 26 13:27:50.007607 2023] [mpm_winnt:notice] [pid 6648:tid 664] AH00455: Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/7.4.28 configured -- resuming normal operations
+[Thu Oct 26 13:27:50.007607 2023] [mpm_winnt:notice] [pid 6648:tid 664] AH00456: Apache Lounge VC15 Server built: Dec 23 2021 11:00:40
+[Thu Oct 26 13:27:50.007607 2023] [core:notice] [pid 6648:tid 664] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Thu Oct 26 13:27:50.052641 2023] [mpm_winnt:notice] [pid 6648:tid 664] AH00418: Parent: Created child process 14208
+[Thu Oct 26 13:27:50.487817 2023] [ssl:warn] [pid 14208:tid 652] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Oct 26 13:27:50.562853 2023] [ssl:warn] [pid 14208:tid 652] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Oct 26 13:27:50.617378 2023] [mpm_winnt:notice] [pid 14208:tid 652] AH00354: Child: Starting 150 worker threads.
+[Thu Oct 26 13:28:45.689998 2023] [ssl:warn] [pid 2400:tid 180] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Oct 26 13:28:45.765019 2023] [core:warn] [pid 2400:tid 180] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Oct 26 13:28:45.765019 2023] [ssl:warn] [pid 2400:tid 180] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Oct 26 13:28:45.810057 2023] [mpm_winnt:notice] [pid 2400:tid 180] AH00455: Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/7.4.28 configured -- resuming normal operations
+[Thu Oct 26 13:28:45.810057 2023] [mpm_winnt:notice] [pid 2400:tid 180] AH00456: Apache Lounge VC15 Server built: Dec 23 2021 11:00:40
+[Thu Oct 26 13:28:45.810057 2023] [core:notice] [pid 2400:tid 180] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Thu Oct 26 13:28:45.840064 2023] [mpm_winnt:notice] [pid 2400:tid 180] AH00418: Parent: Created child process 13820
+[Thu Oct 26 13:28:46.343417 2023] [ssl:warn] [pid 13820:tid 640] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Oct 26 13:28:46.427064 2023] [ssl:warn] [pid 13820:tid 640] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Oct 26 13:28:46.476897 2023] [mpm_winnt:notice] [pid 13820:tid 640] AH00354: Child: Starting 150 worker threads.
+[Thu Oct 26 20:47:47.929532 2023] [php7:notice] [pid 13820:tid 1900] [client ::1:58910] Cannot find session record meq2b72cptbq3jpj80mgccjqjp for user 2, creating new session., referer: https://localhost/moodle/login/index.php
+[Thu Oct 26 20:49:12.501296 2023] [ssl:warn] [pid 1620:tid 648] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Oct 26 20:49:12.576324 2023] [core:warn] [pid 1620:tid 648] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Oct 26 20:49:12.576324 2023] [ssl:warn] [pid 1620:tid 648] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Oct 26 20:49:12.756057 2023] [mpm_winnt:notice] [pid 1620:tid 648] AH00455: Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/7.4.28 configured -- resuming normal operations
+[Thu Oct 26 20:49:12.756057 2023] [mpm_winnt:notice] [pid 1620:tid 648] AH00456: Apache Lounge VC15 Server built: Dec 23 2021 11:00:40
+[Thu Oct 26 20:49:12.756057 2023] [core:notice] [pid 1620:tid 648] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Thu Oct 26 20:49:12.786066 2023] [mpm_winnt:notice] [pid 1620:tid 648] AH00418: Parent: Created child process 9848
+[Thu Oct 26 20:49:13.409342 2023] [ssl:warn] [pid 9848:tid 412] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Oct 26 20:49:13.484386 2023] [ssl:warn] [pid 9848:tid 412] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Oct 26 20:49:13.529396 2023] [mpm_winnt:notice] [pid 9848:tid 412] AH00354: Child: Starting 150 worker threads.
+[Thu Oct 26 22:13:34.070707 2023] [php7:warn] [pid 9848:tid 1868] [client ::1:53086] PHP Warning:  POST Content-Length of 54041961 bytes exceeds the limit of 41943040 bytes in Unknown on line 0, referer: https://localhost/moodle/course/modedit.php?add=resource&type=&course=2&section=2&return=0&sr=0
+[Thu Oct 26 22:13:44.761110 2023] [php7:warn] [pid 9848:tid 1860] [client ::1:53106] PHP Warning:  POST Content-Length of 54041961 bytes exceeds the limit of 41943040 bytes in Unknown on line 0, referer: https://localhost/moodle/course/modedit.php
+[Thu Oct 26 22:14:31.028861 2023] [php7:warn] [pid 9848:tid 1892] [client ::1:53110] PHP Warning:  POST Content-Length of 54041961 bytes exceeds the limit of 41943040 bytes in Unknown on line 0, referer: https://localhost/moodle/course/modedit.php
